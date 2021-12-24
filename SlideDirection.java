@@ -1,4 +1,4 @@
-package Project2;
+package TwentyFortyEight;
 
 /**
  * Created by dulimarh on 7/10/14.
