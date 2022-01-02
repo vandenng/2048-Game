@@ -266,37 +266,37 @@ public class TwentyFortyEightGUI extends JFrame implements ActionListener, KeyLi
 			this.image = new ImageIcon(this.getClass.getClassLoader().getResource("resources/images/Backgrouund.png"));
 			break;
 		case 2:
-			this.image = new ImageIcon("F:/Cis 163/Projects/Project 2/2.png");
+			this.image = new ImageIcon(this.getClass.getClassLoader().getResource("resources/images/2.png"));
 			break;
 		case 4:
-			this.image = new ImageIcon("F:/Cis 163/Projects/Project 2/4.png");
+			this.image = new ImageIcon(this.getClass.getClassLoader().getResource("resources/images/4.png"));
 			break;
 		case 8:
-			this.image = new ImageIcon("F:/Cis 163/Projects/Project 2/8.png");
+			this.image = new ImageIcon(this.getClass.getClassLoader().getResource("resources/images/8.png"));
 			break;
 		case 16:
-			this.image = new ImageIcon("F:/Cis 163/Projects/Project 2/16.png");
+			this.image = new ImageIcon(this.getClass.getClassLoader().getResource("resources/images/16.png"));
 			break;
 		case 32:
-			this.image = new ImageIcon("F:/Cis 163/Projects/Project 2/32.png");
+			this.image = new ImageIcon(this.getClass.getClassLoader().getResource("resources/images/32.png"));
 			break;
 		case 64:
-			this.image = new ImageIcon("F:/Cis 163/Projects/Project 2/64.png");
+			this.image = new ImageIcon(this.getClass.getClassLoader().getResource("resources/images/64.png"));
 			break;
 		case 128:
-			this.image = new ImageIcon("F:/Cis 163/Projects/Project 2/128.png");
+			this.image = new ImageIcon(this.getClass.getClassLoader().getResource("resources/images/128.png"));
 			break;
 		case 256:
-			this.image = new ImageIcon("F:/Cis 163/Projects/Project 2/256.png");
+			this.image = new ImageIcon(this.getClass.getClassLoader().getResource("resources/images/256.png"));
 			break;
 		case 512:
-			this.image = new ImageIcon("F:/Cis 163/Projects/Project 2/512.png");
+			this.image = new ImageIcon(this.getClass.getClassLoader().getResource("resources/images/512.png"));
 			break;
 		case 1024:
-			this.image = new ImageIcon("F:/Cis 163/Projects/Project 2/1024.png");
+			this.image = new ImageIcon(this.getClass.getClassLoader().getResource("resources/images/1024.png"));
 			break;
 		case 2048:
-			this.image = new ImageIcon("F:/Cis 163/Projects/Project 2/2048.png");
+			this.image = new ImageIcon(this.getClass.getClassLoader().getResource("resources/images/2048.png"));
 			break;
 		default:
 			throw new IllegalArgumentException();
