@@ -263,7 +263,7 @@ public class TwentyFortyEightGUI extends JFrame implements ActionListener, KeyLi
 	private ImageIcon getImage(int val) {
 		switch (val) {
 		case 0:
-			this.image = new ImageIcon("F:/Cis 163/Projects/Project 2/Background.png");
+			this.image = new ImageIcon(this.getClass.getClassLoader().getResource("resources/images/Backgrouund.png"));
 			break;
 		case 2:
 			this.image = new ImageIcon("F:/Cis 163/Projects/Project 2/2.png");
