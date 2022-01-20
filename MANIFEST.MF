@@ -1,2 +1,6 @@
+Manifest-Version: 1.0
+Created-By: NathanVandenHoek
+Package-Name: TwentyFortyEight
 Main-Class: classes.TwentyFortyEight.TwentyFortyEightGUI
+Class-Path: src.TwentyFortyEight.*.java src.resources
 
