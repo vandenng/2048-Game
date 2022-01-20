@@ -16,12 +16,9 @@ public class TextUI {
         game = new NumberGame();
 
         if (game == null) {
-            System.err.println ("*---------------------------------------------*");
-            System.err.println ("| You must first modify the UI program.       |");
-            System.err.println ("| Look for the first TODO item in TextUI.java |");
-            System.err.println ("*---------------------------------------------*");
-            System.exit(0xE0);
-        }
+        	System.err.println("Error loading TextUI");
+	}
+
         game.resizeBoard(4, 4, 64);
         grid = new int[4][4];
 
