@@ -1,4 +1,4 @@
-package TwentyFortyEight;
+package src.TwentyFortyEight;
 /**
  * Created by Hans Dulimarta (Summer 2014)
  */

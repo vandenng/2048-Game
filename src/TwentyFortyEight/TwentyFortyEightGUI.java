@@ -1,4 +1,4 @@
-package TwentyFortyEight;
+package src.TwentyFortyEight;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -263,40 +263,40 @@ public class TwentyFortyEightGUI extends JFrame implements ActionListener, KeyLi
 	private ImageIcon getImage(int val) {
 		switch (val) {
 		case 0:
-			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("resources/images/Backgrouund.png"));
+			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("src/resources/images/Background.PNG"));
 			break;
 		case 2:
-			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("resources/images/2.png"));
+			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("src/resources/images/2.PNG"));
 			break;
 		case 4:
-			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("resources/images/4.png"));
+			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("src/resources/images/4.PNG"));
 			break;
 		case 8:
-			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("resources/images/8.png"));
+			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("src/resources/images/8.PNG"));
 			break;
 		case 16:
-			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("resources/images/16.png"));
+			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("src/resources/images/16.PNG"));
 			break;
 		case 32:
-			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("resources/images/32.png"));
+			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("src/resources/images/32.PNG"));
 			break;
 		case 64:
-			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("resources/images/64.png"));
+			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("src/resources/images/64.PNG"));
 			break;
 		case 128:
-			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("resources/images/128.png"));
+			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("src/resources/images/128.PNG"));
 			break;
 		case 256:
-			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("resources/images/256.png"));
+			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("src/resources/images/256.PNG"));
 			break;
 		case 512:
-			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("resources/images/512.png"));
+			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("src/resources/images/512.PNG"));
 			break;
 		case 1024:
-			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("resources/images/1024.png"));
+			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("src/resources/images/1024.PNG"));
 			break;
 		case 2048:
-			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("resources/images/2048.png"));
+			this.image = new ImageIcon(this.getClass().getClassLoader().getResource("src/resources/images/2048.PNG"));
 			break;
 		default:
 			throw new IllegalArgumentException();

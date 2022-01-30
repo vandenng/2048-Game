@@ -1,4 +1,4 @@
-package TwentyFortyEight;
+package src.TwentyFortyEight;
 
 
 import org.junit.*;
